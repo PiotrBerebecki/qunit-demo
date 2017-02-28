@@ -5,12 +5,7 @@ function addOne(n) {
 }
 
 
-// How to test this?
-function addOneAsync(n) {
-  setTimeout(function() {
-    return n + 1;
-  }, 200);
-}
+
 
 
 
@@ -20,17 +15,25 @@ function addOneAsyncWithCallback(n, cb) {
   }, 200);
 }
 
+// How to test this?
+function addOneAsync(n) {
+  setTimeout(function() {
+    return n + 1;
+  }, 200);
+}
+
+
 
 
 function addOneToEveryElement(arr) {
   return arr.map(el => el + 1);
 }
 
-
-
 function isAboveTen(n) {
   return n > 10;
 }
+
+
 
 
 

@@ -2,17 +2,24 @@
 
 
 
+
+// PIOTR ********************************************
 test('assert.equal - Function addOne should add 1', function(assert) {
   assert.equal(addOne(1), 2);
 });
 
 
+
+
+
+// FINN ********************************************
 // FAILING TEST
+
 // test('assert.equal - Function addOneAsync should add 1 asynchronously', function(assert) {
 //   assert.equal(addOneAsync(1), 2);
 // });
 
-
+//
 // test('assert.async - Function addOneAsyncWithCallback should add 1 asynchronously', function(assert) {
 //   var done = assert.async();
 //
@@ -23,8 +30,15 @@ test('assert.equal - Function addOne should add 1', function(assert) {
 // });
 
 
+
+
+
+
+
+// JESSICA ********************************************
 // FAILING TEST
 // assert.equal cannot be used on arrays or objects
+
 // test('assert.equal - Function addOneToEveryElement should add 1', function(assert) {
 //   var arr = [1, 2, 3];
 //   var ans = [2, 3, 4];
@@ -34,6 +48,7 @@ test('assert.equal - Function addOne should add 1', function(assert) {
 
 
 // assert.deepEqual can be used on arrays or objects
+
 // test('assert.deepEqual - Function addOneToEveryElement should add 1', function(assert) {
 //   var arr = [1, 2, 3];
 //   var ans = [2, 3, 4];
@@ -43,12 +58,15 @@ test('assert.equal - Function addOne should add 1', function(assert) {
 
 
 // assert.ok performs a boolean check
+
 // test('assert.ok - Function isAboveTen works', function(assert) {
 //   assert.ok(isAboveTen(11));
 // });
 
 
+// SAMATAR ********************************************
 // assert.deepEqual can be used on arrays or objects
+
 // test('assert.deepEqual - Function changeUsername works', function(assert) {
 //   var user = {
 //     username: 'Bella'
@@ -63,8 +81,13 @@ test('assert.equal - Function addOne should add 1', function(assert) {
 
 
 
+
+
+
 // FAILING TEST
 // assert.deepEqual cannot be used to compare two objects made with different constructors or prototypes
+
+
 // test('assert.deepEqual - This test fails for objects', function(assert) {
 //   function User(name) {
 //     this.username = name;
@@ -80,6 +103,7 @@ test('assert.equal - Function addOne should add 1', function(assert) {
 
 
 // assert.propEqual can be used to compare two objects made with different constructors or prototypes
+
 // test('assert.deepEqual - This test fails for objects', function(assert) {
 //   function User(name) {
 //     this.username = name;
