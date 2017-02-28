@@ -4,12 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "npm run open-files && npm run watch",
-    "watch": "browser-sync start --server --files 'public' 'src' --no-notify --no-open",
-    "open-files": "open http://localhost:3000/src/tests/index.html && open http://localhost:3000/public/index.html",
-    "test": "./node_modules/.bin/istanbul cover src/tests/tests.js",
-    "posttest": "npm run open-coverage",
-    "open-coverage": "open ./coverage/lcov-report/index.html"
+    "start": "browser-sync start --server 'src/tests' --files 'src' --no-notify"
   },
   "engine": {
     "node": "6.3.1"
@@ -24,14 +19,7 @@
     "url": ""
   },
   "homepage": "",
-  "dependencies": {
-    "express": "^4.14.1"
-  },
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "istanbul": "^0.4.5",
-    "nodemon": "^1.11.0",
-    "qunit-tap": "^1.5.1",
-    "qunitjs": "^2.1.1"
+    "browser-sync": "^2.18.8"
   }
 }

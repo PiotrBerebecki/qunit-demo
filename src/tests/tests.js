@@ -2,9 +2,9 @@
 
 
 
-// test('assert.equal - Function addOne should add 1', function(assert) {
-//   assert.equal(addOne(1), 2);
-// });
+test('assert.equal - Function addOne should add 1', function(assert) {
+  assert.equal(addOne(1), 2);
+});
 
 
 // FAILING TEST
